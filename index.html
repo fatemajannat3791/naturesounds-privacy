@@ -5,44 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NatureSounds BinauralBliss Privacy Policy</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            line-height: 1.6;
-        }
-        h1 {
-            text-align: center;
-        }
-        h2 {
-            margin-top: 20px;
-        }
-        p {
-            margin: 10px 0;
-        }
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1 { text-align: center; }
+        h2 { margin-top: 20px; }
+        p { margin: 10px 0; }
+        .lang-toggle { text-align: center; margin: 20px 0; }
     </style>
 </head>
 <body>
     <h1>Privacy Policy for NatureSounds BinauralBliss</h1>
-    <p><strong>Last Updated: April 12, 2025</strong></p>
-    <p>NatureSounds BinauralBliss, developed by Fatema Jannat, is a relaxation app designed to provide users with nature sounds and binaural beats for mindfulness and stress relief. This Privacy Policy explains how we handle your information when you use our app.</p>
-
-    <h2>1. No Collection of Personal Data</h2>
-    <p>We do not collect, store, or process any personal data or usage data. NatureSounds BinauralBliss operates entirely on your device and does not require an internet connection, user account, or any personal information to function.</p>
-
-    <h2>2. No Third-Party Sharing</h2>
-    <p>Since we do not collect any data from you, we do not share any information with third parties.</p>
-
-    <h2>3. Children’s Privacy</h2>
-    <p>NatureSounds BinauralBliss is suitable for users of all ages, including children under 13. As we do not collect any personal data, there are no privacy concerns for children using our app.</p>
-
-    <h2>4. Links to Other Websites</h2>
-    <p>NatureSounds BinauralBliss does not contain links to third-party websites or services.</p>
-
-    <h2>5. Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy in the future. Any changes will be posted here with an updated "Last Updated" date. Please check this page periodically for updates.</p>
-
-    <h2>6. Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us:</p>
-    <p>- Email: <a href="mailto:fatemajannat3791@gmail.com"></a></p>
+    <div class="lang-toggle">
+        <button onclick="showEnglish()">English</button>
+        <button onclick="showChinese()">中文</button>
+    </div>
+    <div id="english-policy">
+        <h1>Privacy Policy for NatureSounds BinauralBliss</h1>
+        <p><strong>Last Updated: April 12, 2025</strong></p>
+        <p>NatureSounds BinauralBliss, developed by Fatema Jannat, is a relaxation app designed to provide users with nature sounds and binaural beats for mindfulness and stress relief. This Privacy Policy explains how we handle your information when you use our app.</p>
+        <h2>1. No Collection of Personal Data</h2>
+        <p>We do not collect, store, or process any personal data or usage data. NatureSounds BinauralBliss operates entirely on your device and does not require an internet connection, user account, or any personal information to function.</p>
+        <h2>2. No Third-Party Sharing</h2>
+        <p>Since we do not collect any data from you, we do not share any information with third parties.</p>
+        <h2>3. Children’s Privacy</h2>
+        <p>NatureSounds BinauralBliss is suitable for users of all ages, including children under 13. As we do not collect any personal data, there are no privacy concerns for children using our app.</p>
+        <h2>4. Links to Other Websites</h2>
+        <p>NatureSounds BinauralBliss does not contain links to third-party websites or services.</p>
+        <h2>5. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy in the future. Any changes will be posted here with an updated "Last Updated" date. Please check this page periodically for updates.</p>
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us:</p>
+        <p>- Email: <a href="mailto:fatemajannat3791@gmail.com">fatemajannat3791@gmail.com</a></p>
+    </div>
+    <div id="chinese-policy" style="display: none;">
+        <h1>NatureSounds BinauralBliss 隐私政策</h1>
+        <p><strong>最后更新日期：2025年4月12日</strong></p>
+        <p>NatureSounds BinauralBliss 由 Fatema Jannat 开发，是一款放松类应用程序，旨在为用户提供自然声音和双耳节拍，帮助用户进行冥想和缓解压力。本隐私政策说明了您使用我们的应用程序时我们如何处理您的信息。</p>
+        <h2>1. 不收集个人数据</h2>
+        <p>我们不收集、存储或处理任何个人数据或使用数据。NatureSounds BinauralBliss 完全在您的设备上运行，无需互联网连接、用户账户或任何个人信息即可使用。</p>
+        <h2>2. 不与第三方共享</h2>
+        <p>由于我们不收集您的任何数据，因此我们不会与第三方共享任何信息。</p>
+        <h2>3. 儿童隐私</h2>
+        <p>NatureSounds BinauralBliss 适合所有年龄段的用户，包括13岁以下的儿童。由于我们不收集任何个人数据，儿童使用我们的应用程序不存在隐私问题。</p>
+        <h2>4. 其他网站链接</h2>
+        <p>NatureSounds BinauralBliss 不包含指向第三方网站或服务的链接。</p>
+        <h2>5. 本隐私政策的更改</h2>
+        <p>我们可能会在未来更新本隐私政策。任何更改将在此页面发布，并更新“最后更新日期”。请定期查看此页面以获取更新。</p>
+        <h2>6. 联系我们</h2>
+        <p>如果您对本隐私政策有任何疑问，请通过以下方式联系我们：</p>
+        <p>- 电子邮件：<a href="mailto:fatemajannat3791@gmail.com">fatemajannat3791@gmail.com</a></p>
+    </div>
+    <script>
+        function showEnglish() {
+            document.getElementById('english-policy').style.display = 'block';
+            document.getElementById('chinese-policy').style.display = 'none';
+        }
+        function showChinese() {
+            document.getElementById('english-policy').style.display = 'none';
+            document.getElementById('chinese-policy').style.display = 'block';
+        }
+    </script>
 </body>
 </html>
